@@ -41,7 +41,7 @@ Instalar dependencias:
 ## ▶️ Ejemplo de uso
 
 ```python
-from analisis_fasta import analizar_fasta
+from source import analizar_fasta
 
 df = analizar_fasta("ejemplo.fasta")
 print(df.head())
